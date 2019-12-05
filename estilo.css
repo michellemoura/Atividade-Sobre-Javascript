@@ -1,0 +1,33 @@
+#area
+{
+  position:relative;
+  left:37%;
+  top:10em;
+  width:700px;
+  height:300px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;   
+}
+ 
+ 
+fieldset
+{
+  background-color:#A7C0DC;
+  width:300px;
+  height:400px;
+}
+legend
+{
+  font-weight:bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: purple;
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trabalho de Desenvolvimento Web - Javascript</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="static/main.js"></script>
+</head>
+
+<body>
+    <div id="area">
+    <fieldset>
+
+        <legend>Formulário Exemplo</legend>
+
+        <label for="nome">Nome:</label><input id="nome" type="text"><br>
+        <br>
+
+        <label for="senha">Senha:</label><input id="senha" type="password"><br>
+        <br>
+
+        <label for="senha">Idade:</label><input id="idade" type="number"  min = 1 max = 80><br>
+        <br>
+
+        <label for="cpf">CPF:</label><input id="cpf" type="text"><br>
+        <br>
+
+        <label for="mensagem">Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+
+        <button id="salvar" type="button" onclick="validar()">Salvar</button>
+
+    </fieldset>
+    </div>
+    <br>
+    <div id="result">
+
+    </div>
+</body>
+
+</html>
